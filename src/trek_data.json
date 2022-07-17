@@ -1,0 +1,48 @@
+[
+  {
+    "Title": "Kashmir Great Lakes",
+    "trek_banner_image": "https://res.cloudinary.com/dlxstraey/image/upload/v1657982995/trek%20images/IMG_20210723_080602_vao4wy.jpg",
+    "Photo_list": [
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982995/trek%20images/IMG_20210723_080602_vao4wy.jpg",
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982988/trek%20images/IMG_20210725_145740_rf5kqm.jpg",
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982978/trek%20images/IMG_20210803_083554_br6twq.jpg"
+    ],
+    "Price": "₹ 13999",
+    "Base": "Kashmir",
+    "Duration": "7 days",
+    "Itinerary": "The Kashmir Great Lakes, trek is the most beautiful, amazing and full of natural beauty trek. In this trek you can enjoy thescenic beauty of God’s amazing creation called ‘Lakes’. Here you can  see 6 different Lakes named, Vishnusar, Kishansar, Gadsar,Satsar,Gangabal,Nandkol and many other small lakes . This is the totally hidden part of Kashmir. Only very few number of people is knownabout this amazing trek.",
+    "difficulty": "Moderate",
+    "altitude": "13,800 ft",
+    "slug": "kashmir-great-lakes"
+  },
+  {
+    "Title": "Marchoi Winter Trek",
+    "trek_banner_image": "https://res.cloudinary.com/dlxstraey/image/upload/v1657982949/trek%20images/IMG_20210802_111923_s9kaq0.jpg",
+    "Photo_list": [
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982986/trek%20images/IMG_20210803_123830_gqm1fz.jpg",
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982983/trek%20images/IMG_20210722_184521_aixeud.jpg"
+    ],
+    "Price": "₹ 8499",
+    "Base": "Naranag, Kashmir",
+    "Duration": "4 days",
+    "Itinerary": "Firstly, exploration and acclimatization in Naranag, Secondly, trekking amidst Coniferous forest and reaching Dumail following the Wangath river. Thirdly, trekking to the Marchoi top.Fourthly, meeting Gujjars (people originally from Central Asia who settled in Gujarat in India) andtalking to them.Photography amidst natural settings.",
+    "difficulty": "easy-moderate",
+    "altitude": "10,500 feet approx",
+    "slug": "marchoi-trek"
+  },
+  {
+    "Title": "Kolahoi Glacier Trek",
+    "trek_banner_image": "https://res.cloudinary.com/dlxstraey/image/upload/v1657982980/trek%20images/IMG_20210803_130802_qewxst.jpg",
+    "Photo_list": [
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982977/trek%20images/IMG_20210723_084404_nq6f5y.jpg",
+      "https://res.cloudinary.com/dlxstraey/image/upload/v1657982995/trek%20images/IMG_20210723_080602_vao4wy.jpg"
+    ],
+    "Price": "₹ 11999",
+    "Base": "Srinagar, Kashmir",
+    "Duration": "6 days",
+    "Itinerary": "Kolahoi glacier trek is a beautiful trek amidst lush green meadows of lidder valley,The trek reaches Kolahoi Glacier - the largest glacier of Kashmir, Total trek distance is around 50 kms and altitude of around 3800m at the highest point. This trek has it all vast green meadows, Towering peaks, Pristine river and a glacier walk",
+    "difficulty": "moderate",
+    "altitude": "12,500 feet approx",
+    "slug": "kolahoi-glacier-trek"
+  }
+]
