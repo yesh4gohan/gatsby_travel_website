@@ -2,7 +2,6 @@ import React from "react"
 import styles from "../../css/tour.module.css"
 import { FaMap } from "react-icons/fa"
 import {Link} from "gatsby"
-import PropTypes from "prop-types"
 
 
 const Tour = ({ tour }) => {
@@ -16,8 +15,6 @@ const Tour = ({ tour }) => {
     slug
   } = tour
 
-
-  //let mainImage = images ? images[0].fluid : img
   return (
     <article className={styles.tour}>
       <div className={styles.imgContainer}>
@@ -42,14 +39,5 @@ const Tour = ({ tour }) => {
   )
 }
 
-Tour.propTypes = {
-  tour: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    country: PropTypes.string.isRequired,
-    price: PropTypes.number.isRequired,
-    days: PropTypes.number.isRequired,
-    images: PropTypes.arrayOf(PropTypes.object).isRequired,
-  }),
-}
 
 export default Tour

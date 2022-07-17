@@ -1,18 +1,19 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout"
-// import Button from "../examples/Button"
-import StyledHero from "../components/StyledHero"
 import Tours from "../components/Tours/Tours"
 import SEO from "../components/SEO"
-import {response} from '../constants/tours_list';
+import response from "../trek_data.json"
 export default class tours extends Component {
+  state = {
+    tours: JSON.parse(JSON.stringify(response)),
+  }
+
   render() {
     return (
       <Layout>
         <SEO title="tours" />
-        <Tours tours={response}/>
+        <Tours tours={this.state.tours} />
       </Layout>
     )
   }
 }
-

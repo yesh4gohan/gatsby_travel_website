@@ -6,7 +6,7 @@ const StyledHero = ({ img, className, children, home }) => {
   return (
     <BackgroundImage
       className={className}
-      fluid={{src:'https://res.cloudinary.com/dlxstraey/image/upload/v1657374166/pexels-pixabay-270756_t8zooy.jpg'}}
+      fluid={{src:img}}
       home={home}
     >
       {children}

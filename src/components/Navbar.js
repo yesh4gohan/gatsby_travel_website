@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 // import { Link } from "gatsby"
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 
 import { MdMenu } from "react-icons/md"
 import styles from "../css/navbar.module.css"
 import links from "../constants/links"
 import socialIcon from "../constants/social-icons"
-import logo from "../images/logo.svg"
+import logo from "../images/logo.png"
 
 const Navbar = () => {
   const [isOpen, satNav] = useState(false)
@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className={styles.Navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <img className={styles.log_navbar} src={logo} alt="backroad logo" />
+          <Link fade to="/"><img className={styles.log_navbar} src={logo} alt="backroad logo" /></Link>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <MdMenu className={styles.logoIcon} />
           </button>

@@ -10,7 +10,6 @@ export default class TourList extends Component {
   }
 
   componentDidMount() {
-    console.log({propppy:this.props})
     this.setState({
       tours: this.props.tours
     })
@@ -18,9 +17,9 @@ export default class TourList extends Component {
   render() {
     return (
       <section className={styles.tours}>
-        <Title title="our" subtitle="tours" />
+        <Title subtitle="our experiences" />
         <div className={styles.center}>
-          {this.state.tours.map((tour) => {
+          {this.state.tours?.map((tour) => {
             return <Tour key={tour.slug} tour={tour} />
           })}
         </div>

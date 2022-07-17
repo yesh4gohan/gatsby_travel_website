@@ -72,6 +72,7 @@
   .nav-links {
     height: auto;
     display: flex;
+    width: 60%;
   }
 
   .nav-social-links {
@@ -93,6 +94,6 @@
 }
 
 .log_navbar {
-  width: 30%;
+  width: 100%;
   object-fit: contain;
 }

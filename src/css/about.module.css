@@ -81,3 +81,7 @@
     max-width: 1170px;
   }
 }
+.tour_img {
+  object-fit: contain;
+  width: 100%;
+}

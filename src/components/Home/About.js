@@ -8,18 +8,22 @@ const About = () => {
       <Title title="about" subtitle="us" />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutInfo}>
-          <h4>explore the difference</h4>
+          <h4>Why Chose Us</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sequi
-            sit obcaecati unde, commodi porro.
+            Experienced Team with professional staff
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-            debitis natus iste.
+            Team of certified Mountaineers who have done many successful expeditions
           </p>
-          <button type="button" className="btn-primary">
-            Read more
-          </button>
+          <p>
+            Local guides who know the in and outs of the terrain
+          </p>
+          <p>
+            Safety oriented team who have been in many rescue operations in the past
+          </p>
+        </article>
+        <article>
+        <img src={'https://res.cloudinary.com/dlxstraey/image/upload/v1657984622/trek%20images/about_us_image_si647i.jpg'} className={styles.tour_img} alt="single tour"/>
         </article>
       </div>
     </section>
